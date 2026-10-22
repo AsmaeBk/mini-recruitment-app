@@ -1,0 +1,12 @@
+<section class="candidate">
+    @for(candidate of candidates(); track candidate.id) {
+       <a [routerLink]="['/candidate',candidate.id]">
+            <dl>
+                <dt>Name: </dt><dd>{{candidate.name}}</dd>
+                <dt>Email : </dt><dd>{{candidate.email}}</dd>
+                <dt>Phone : </dt><dd>{{candidate.phone}}</dd>
+            </dl>
+       </a>
+    }
+</section>
+

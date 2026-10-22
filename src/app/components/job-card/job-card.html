@@ -1,0 +1,11 @@
+
+<section>
+  {{jobTitle()}}
+  {{company()}}
+  {{location()}}
+  <a [href]="appUrl()">Apply</a>
+  <h2 >
+    {{applicationMessage()}}
+  </h2>
+  <button [disabled]="isClosed()" type="button" (click)="apply()">{{applyButtonLabel()}}</button>
+</section>

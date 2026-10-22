@@ -1,0 +1,13 @@
+section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 0.5rem;
+   
+    dl {
+        background-color: rgb(224, 224, 222);
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
